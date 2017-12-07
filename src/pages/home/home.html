@@ -1,0 +1,64 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Flipcart</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content padding>
+
+  <!-- <ion-fab top left edge>
+    <ion-icon name="list-box">Flipcart</ion-icon>
+    </ion-fab> -->
+
+  <ion-fab top right edge>
+    <ion-icon ios="notifications" md="md-notifications"></ion-icon>
+    <ion-icon ios="cart" md="md-cart"></ion-icon>
+  </ion-fab>
+
+  <ion-card>
+    <ion-card-content>
+      <ion-icon (click)="search()" md="md-search" ></ion-icon>
+    </ion-card-content>
+  </ion-card>
+
+
+  <ion-grid>
+    <ion-row>
+      <ion-col col-6>
+        <ion-card>
+            <img src="../../assets/imgs/f.jpg" style="max-height:25%; max-width:22%;"/>
+          <div class="card-title">footwear</div>
+          
+        </ion-card>
+      </ion-col>
+
+
+
+      <ion-col col-6>
+        <ion-card>
+            <img src="../../assets/imgs/jwellery.jpeg" style="max-height:25%; max-width:25%;"/>
+          <div class="card-title">Jwellery</div>
+        </ion-card>
+      </ion-col>
+
+    </ion-row>
+    <ion-row>
+
+    </ion-row>
+  </ion-grid>
+
+  <!-- <ion-card position="50%">
+         
+        <img src="img/card-saopaolo.png"/>
+        <div class="card-title">São Paulo</div>
+        <div class="card-subtitle">41 Listings</div>
+  
+      </ion-card>
+      <ion-card width="50%">
+          <img src="img/card-sf.png"/>
+          <div class="card-title">San Francisco</div>
+          <div class="card-subtitle">72 Listings</div>
+        </ion-card> -->
+
+</ion-content>
